@@ -46,4 +46,41 @@
 		```javascript
 		// Input: arr = [1, 2, 3, 4, 6], N = 6
 		// Output: 5 // The missing number
+
+		// Steps to Solve:
+		// 	- Find the problem number via foreach loop (just the number where itself + 1 doesn't equal the number after it)
+		//	- return the problem number + 1
+
+		// First attempt:
+		function findMissing(array, N) {
+			let problemNumber;
+			for (let i = 0; i < array.length; i++) {
+				if (array[i] + 1 != array[i + 1]) {
+					problemNumber = array[i] + 1;
+					break;
+				}
+			}
+			return problemNumber;
+		}
+
+		// Ran in devtools, found the resultant number (5); Time spent: 5 minutes.
+		// No hints used for solution. Unclear why the number N was needed since it is useless in solving the problem and is not needed even with the requirements. Will check hints to see if I missed something.
+		// Checked hints. The suggestion from the hints seems to overcomplicate things. Seems like you'd essentially do it something like: 
+
+		function findMissing(array, N) {
+			let hashArray = new Array(N).fill(0); // there may be a better method for filling them all with 0s. This also doesn't seem to specifically be a "hash", but it's the best I could come up with...
+			for (let i = 0; i < array.length; i++) {
+        hashArray[array[i] - 1] = array[i]; // filling in each value in the hash array.
+    	}
+			for (let i = 0; i < hashArray.length; i++) {
+        // finding the missing number
+				if (hashArray[i] === 0) {
+            return i + 1;
+        }
+    	}
+		}
+
+		// Overall, runtime appears to be the same between the two functions: O(n)
+		// However, I would imagine that the second function might start to slow down a bit with larger sets of input. May have missed something about why it is better...
+
 		```
