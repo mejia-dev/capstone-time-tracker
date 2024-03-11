@@ -24,6 +24,7 @@
 
 			// DEFINITION: contiguous. adjective. con·​tig·​u·​ous kən-ˈtig-yə-wəs. : being in actual contact : touching along a boundary or at a point.
 
+			// Time spent: 35 minutes.
 
 			```
 			* Spent quite a bit of time trying to understand "contiguous", how it differs from "consecutive" and what makes the array in the example "contiguous" since it definitely isn't consecutive and there are large gaps between the individual numbers in the array [4, -1, -2, 1, 5].
@@ -83,4 +84,135 @@
 		// Overall, runtime appears to be the same between the two functions: O(n)
 		// However, I would imagine that the second function might start to slow down a bit with larger sets of input. May have missed something about why it is better...
 
+		```
+
+		* [Whiteboarding Prompt 3](https://full-time.learnhowtoprogram.com/capstone/capstone-week-2/whiteboarding-practice---week-1#dutch-national-flag-problem)
+		```c#
+		// Input: {0, 1, 2, 0, 1, 2}
+		// Output: {0, 0, 1, 1, 2, 2}
+
+		// Input: {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1}
+		// Output: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
+
+		// Given prompt saying that Array must be used, and brackets are squiggly brackets, assuming C# is the language requested to solve this prompt.
+
+		// Steps To Solve:
+		// 	- Create three new arrays, one for 0s, one for 1s, and one for 2s.
+		// 	- foreach loop through the unsorted array. If number is 0, push it to 0, etc.
+		// Combine and return all three arrays of individual numbers.
+		
+
+		// first Attempt
+		public int[] SortNumberArray(int[] unsortedArray)
+		{
+			int[] zeroesArray = {};
+			int[] onesArray = {};
+			int[] twosArray = {};
+			foreach (int number in unsortedArray)
+			{
+				if (number == 0)
+				{
+					Array.resize(ref zeroesArray, zeroesArray.length + 1);
+					zeroesArray[zeroesArray.Length -1] = number;
+				}
+				else if (number == 1)
+				{
+					Array.resize(ref onesArray, onesArray.length + 1);
+					onesArray[onesArray.Length -1] = number;
+				}
+				else if (number == 2)
+				{
+					Array.resize(ref twosArray, twosArray.length + 1);
+					twosArray[twosArray.Length -1] = number;
+				}
+			}
+
+			int[] sortedArray = {};
+			foreach(int zero in zeroesArray) 
+			{
+				Array.resize(ref sortedArray, sortedArray.length + 1);
+				sortedArray[sortedArray.Length -1] = zero;
+			}
+			foreach(int one in onesArray) 
+			{
+				Array.resize(ref sortedArray, sortedArray.length + 1);
+				sortedArray[sortedArray.Length -1] = one;
+			}
+			foreach(int two in twosArray) 
+			{
+				Array.resize(ref sortedArray, sortedArray.length + 1);
+				sortedArray[sortedArray.Length -1] = two;
+			}
+
+			return sortedArray;
+		}
+
+		// Ran -- failure because "resize" and "length" are not recognized. Also forgot to make it static.
+		// Second attempt, capitalized both methods and made function static.
+		public static int[] SortNumberArray(int[] unsortedArray)
+		{
+			int[] zeroesArray = {};
+			int[] onesArray = {};
+			int[] twosArray = {};
+			foreach (int number in unsortedArray)
+			{
+				if (number == 0)
+				{
+					Array.Resize(ref zeroesArray, zeroesArray.Length + 1);
+					zeroesArray[zeroesArray.Length -1] = number;
+				}
+				else if (number == 1)
+				{
+					Array.Resize(ref onesArray, onesArray.Length + 1);
+					onesArray[onesArray.Length -1] = number;
+				}
+				else if (number == 2)
+				{
+					Array.Resize(ref twosArray, twosArray.Length + 1);
+					twosArray[twosArray.Length -1] = number;
+				}
+			}
+
+			int[] sortedArray = {};
+			foreach(int zero in zeroesArray) 
+			{
+				Array.Resize(ref sortedArray, sortedArray.Length + 1);
+				sortedArray[sortedArray.Length -1] = zero;
+			}
+			foreach(int one in onesArray) 
+			{
+				Array.Resize(ref sortedArray, sortedArray.Length + 1);
+				sortedArray[sortedArray.Length -1] = one;
+			}
+			foreach(int two in twosArray) 
+			{
+				Array.Resize(ref sortedArray, sortedArray.Length + 1);
+				sortedArray[sortedArray.Length -1] = two;
+			}
+
+			return sortedArray;
+		}
+
+		// Tested and it is functional. Resolved, 15 minutes. No hints used.
+		```
+
+		* [Whiteboarding Prompt 4](https://full-time.learnhowtoprogram.com/capstone/capstone-week-2/whiteboarding-practice---week-1#length-of-the-longest-substring-without-repeating-characters)
+		```javascript
+		// Example 1:
+		// Input: “ABCDEFGABEF”
+		// Output: 7
+		// Explanation: The longest substring without repeating characters are “ABCDEFG”, “BCDEFGA”, and “CDEFGAB” with lengths of 7
+
+		// Example 2:
+		// Input: “ILOVEEPICODUS”
+		// Output: 8
+		// Explanation: The longest substring without repeating characters is "EPICODUS, with a length of 8
+
+		// Assumptions:
+		// - String is not null or negative
+
+
+		// Steps to Solve: 
+		//	- Create an empty array of arrays called "substrings"
+		// 	
 		```
