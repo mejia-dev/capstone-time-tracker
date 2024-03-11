@@ -15,7 +15,7 @@
 		* Watch [Demo Day Pitch video](https://www.youtube.com/watch?v=7u0cKqRPYhY).
 		* Draft basic demo day pitch according to [LHTP lesson](https://full-time.learnhowtoprogram.com/capstone/capstone-week-2/capstones---preparing-your-pitch). 
 		* Reviewed whiteboarding best practices and recursion.
-	* 9:40am PST - 
+	* 9:40am PST - 11:36am PST
 		* [Whiteboarding Prompt 1](https://full-time.learnhowtoprogram.com/capstone/capstone-week-2/whiteboarding-practice---week-1#contiguous-subarray-with-greatest-sum)
 			```javascript
 			// Input: [-2, -3, 4, -1, -2, 1, 5, -3]
@@ -209,10 +209,46 @@
 		// Explanation: The longest substring without repeating characters is "EPICODUS, with a length of 8
 
 		// Assumptions:
-		// - String is not null or negative
-
+		// - String is not null
 
 		// Steps to Solve: 
-		//	- Create an empty array of arrays called "substrings"
-		// 	
+		//	- Create an empty array called "substringArray"
+		// 	- foreach letter in string:
+		// 		- create an array "tempArray"
+		//		- run a for loop for all remaining characters in the input string.
+		//			- if the character does not exist in the array, push it to the array
+		// 			- if the character exists in the array, do not push it to the array. Instead, 
+		// 				- if substringArray is null, let subStringArray = tempArray.
+		// 				- if subStringArray is not null AND if substringArray.length < tempArray.length : substringArray = tempArray;
+
+		//	- After each letter in the foreach loop has been itereated through, return substringArray.length;
+
+
+		// Attempt 1. Realizing now that it needs to be a for loop initially instead of foreach loop.
+		function nonRecurringSubString(stringInput) {
+			let subStringArray = [];
+			let stringArray = stringInput.split("");
+			for (let i = 0; i < stringArray.length; i++) {
+				let tempArray = [];
+				tempArray.push(stringArray[i]);
+				for (let j = i + 1; j < stringArray.length; j++){
+					if (!tempArray.includes(stringArray[j])) {
+						tempArray.push(stringArray[j]);
+						console.log(tempArray);
+					} else {
+						break;
+					}
+				}
+				if ((subStringArray === null) || ((subStringArray.length != null) && (tempArray.length > subStringArray.length))) {
+					subStringArray = tempArray;
+				}
+			}
+			return subStringArray.length;
+		}
+
+		// Tested and it is functional. Resolved, ~20 minutes. No hints used.
+
 		```
+
+	* 11:36am PST - 12:07 pm PST
+		Watch Henry's whiteboarding
