@@ -7,5 +7,5 @@
 		* Begin watching [Angular for Beginners](https://www.youtube.com/watch?v=3qBXWUpoPHo)
 			* Learned Angular history / concepts
 			* Learned TypeScript history / concepts
-	* 8:30am PST - 
-		* Scrum
+	* 8:30am PST - 8:55am PST
+		* Scrum. Discussed goals, additional reading, and assignments.
