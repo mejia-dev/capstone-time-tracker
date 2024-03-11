@@ -256,9 +256,15 @@
 	* 12:07pm PST - 1:06pm PST
 		Lunch
 
-	* 1:06pm PST - 
+	* 1:06pm PST - 4:39pm
 		* Continue watching [Angular for Beginners](https://www.youtube.com/watch?v=3qBXWUpoPHo)
-			* Learn proper Typescript setup and configuration
+			* Learn proper TypeScript setup and configuration.
 			* Learning types and type manipulation. Created [sample repo](https://github.com/mejia-dev/typescript-datatypes-sample).
-			* Learned about Rest parameters
-			* Learning about Generic Functions
+			* Learned about Rest parameters.
+			* Learning about Generic Functions.
+			* Learning about getters/setters, etc. (incredibly similar to C#) in TypeScript.
+			* Learning about the [differences between TS Intefaces and Classes](https://stackoverflow.com/questions/40973074/difference-between-interfaces-and-classes-in-typescript).
+				* Rabbit hole learning about the [differences between TS Interfaces and Types](https://blog.logrocket.com/types-vs-interfaces-typescript/).
+			* Learning about decorators
+			* Learning about specific tsconfig.json configs.
+		* Completed TypeScript fundamentals. Ending at Angular installation section [~2:20:32](https://youtu.be/3qBXWUpoPHo?feature=shared&t=8432). Will pick back up tomorrow.
