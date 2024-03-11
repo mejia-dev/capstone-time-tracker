@@ -250,5 +250,8 @@
 
 		```
 
-	* 11:36am PST - 12:07 pm PST
+	* 11:36am PST - 12:07pm PST
 		Watch Henry's whiteboarding
+
+	* 12:07pm PST - 1:06pm PST
+		Lunch
