@@ -259,3 +259,4 @@
 	* 1:06pm PST - 
 		* Continue watching [Angular for Beginners](https://www.youtube.com/watch?v=3qBXWUpoPHo)
 			* Learn proper Typescript setup and configuration
+			* Learning type manipulation
