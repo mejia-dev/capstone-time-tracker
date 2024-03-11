@@ -260,3 +260,5 @@
 		* Continue watching [Angular for Beginners](https://www.youtube.com/watch?v=3qBXWUpoPHo)
 			* Learn proper Typescript setup and configuration
 			* Learning types and type manipulation. Created [sample repo](https://github.com/mejia-dev/typescript-datatypes-sample).
+			* Learned about Rest parameters
+			* Learning about Generic Functions
