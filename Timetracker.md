@@ -55,6 +55,7 @@
 			* Working on creating homepage using Components.
 			* Complete MVP for homepage.
 			* Complete stylized searching with Bootstrap.
+			* Learning SASS styling and BEM model for scalability of code.
 
 
 * 2024-03-11
