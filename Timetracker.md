@@ -48,7 +48,9 @@
 		* Lunch
 	* 1:14pm PST - 
 		* More Angular!
-
+			* Learned about linting and installed ESLint in project.
+			* Renamed component prefixes.
+			* Began reviewing frontend of finished example project.
 
 
 * 2024-03-11
