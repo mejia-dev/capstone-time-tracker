@@ -50,7 +50,8 @@
 		* More Angular!
 			* Learned about linting and installed ESLint in project.
 			* Renamed component prefixes.
-			* Began reviewing frontend of finished example project.
+			* Began reviewing frontend of finished example project. Learned about Bootstrap with Angular.
+			* Installed ng-bootstrap in the application.
 
 
 * 2024-03-11
