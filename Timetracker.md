@@ -4,10 +4,14 @@
 	* 7:45am PST - 8:12am PST
 		* Setup for the day.
 		* Warmup [Leetcode problem](https://leetcode.com/problems/add-two-numbers/).
-	* 8:12am PST - 
+	* 8:12am PST - 9am PST
 		* Begin [Angular installation section](https://youtu.be/3qBXWUpoPHo?feature=shared&t=8432)
 			* Needed to upgrade Node on my computer (Angular CLI requires minimum Node version of 18.13). Looking at LHTP / online resources to determine how to do this (using Epicodus-recommended `nvm` vs industry-standard(?) `npm install n` command.) Determined that the `n` module is only supported on Unix systems, so I am unable to use it.
 			* Attempted to upgrade NVM and promptly broke it. Issue is the same as the one listed [here](https://github.com/coreybutler/nvm-windows/issues/1068). Appears to just be an issue with the latest version.
+	* 9am PST - 9:13am PST
+		* Scrum feat. Robo-Erik.
+	* 9:13am PST - 
+		* Working on downgrading NVM to 1.1.11.
 
 * 2024-03-11
 	* 7:45am PST - 8:30am PST
