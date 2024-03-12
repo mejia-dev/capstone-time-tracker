@@ -22,10 +22,14 @@
 			* Learn about automated testing through Jasmine (write) Karma (run). Perform walkthrough of Angular-specific webpack components.
 			* Learned about mono-repo (creating multiple projects in singular workspace).
 			* Noted that tutorial is using a severely outdated version of Angular and a lot of the component / modules are structured completely differently from the latest version. Looking for tutorials for Angular 17.
-	* 10:31am PST - 
+	* 10:31am PST - 11:31am PST
 		* Located [Angular 17 tutorial](https://www.youtube.com/watch?v=2trkY4UfU7U&list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76&index=2). Updated tracker spreadsheet and will use this one going forward.
 			* Learned about Angular 17 `angular.json` file and made configuration changes as necessary.
-
+			* Learned about Bootstrapping.
+			* Adjust my project to use SCSS instead of CSS.
+	* 11:31am PST - pm PST
+		* Noah's whiteboarding session
+			* Realized what the point of the N value was in the whiteboarding prompt. My second attempt at it yesterday was actually correct, since I shouldn't have assumed that the array was sorted. This explains the need for the N variable as well, since N leads to us not needing an actual sorting algorithm, since we already have the upper bound defined. Nice!
 
 
 * 2024-03-11
