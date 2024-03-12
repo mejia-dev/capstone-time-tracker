@@ -46,7 +46,7 @@
 				```
 	* 12:15pm PST - 1:14pm PST
 		* Lunch
-	* 1:14pm PST - 
+	* 1:14pm PST - 4:49PM PST
 		* More Angular!
 			* Learned about linting and installed ESLint in project.
 			* Renamed component prefixes.
