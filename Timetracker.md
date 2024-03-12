@@ -21,6 +21,7 @@
 			* Create first project - [Hotel Inventory App](https://github.com/mejia-dev/hotel-inventory).
 			* Learn about automated testing through Jasmine (write) Karma (run). Perform walkthrough of Angular-specific webpack components.
 			* Learned about mono-repo (creating multiple projects in singular workspace).
+			* Noted that tutorial is using a severely outdated version of Angular and a lot of the component / modules are structured completely differently from the latest version. Looking for tutorials for Angular 17.
 
 
 
