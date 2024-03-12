@@ -59,6 +59,7 @@
 			* Add new side-bar component to site.
 			* Add function that expands and contracts sidebar.
 			* Add autoresize of main content based on sidebar expansion.
+			* Began working on adding [ag-grid.com](ag-grid.com) to the application. Will work more on this tomorrow.
 
 
 * 2024-03-11
