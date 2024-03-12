@@ -1,5 +1,12 @@
 # Timetracker
 
+* 2024-03-12
+	* 7:45am PST - 8:12am PST
+		* Setup for the day.
+		* Warmup [Leetcode problem](https://leetcode.com/problems/add-two-numbers/).
+	* 8:12am PST - 
+		* Begin [Angular installation section](https://youtu.be/3qBXWUpoPHo?feature=shared&t=8432)
+
 * 2024-03-11
 	* 7:45am PST - 8:30am PST
 		* Create GH Repo for tracking time https://github.com/mejia-dev/capstone-time-tracker
