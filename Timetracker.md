@@ -56,6 +56,8 @@
 			* Complete MVP for homepage.
 			* Complete stylized searching with Bootstrap.
 			* Learning SASS styling and BEM model for scalability of code.
+			* Add new side-bar component to site.
+			* Add function that expands and contracts sidebar.
 
 
 * 2024-03-11
