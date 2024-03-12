@@ -10,7 +10,7 @@
 			* Attempted to upgrade NVM and promptly broke it. Issue is the same as the one listed [here](https://github.com/coreybutler/nvm-windows/issues/1068). Appears to just be an issue with the latest version.
 	* 9am PST - 9:13am PST
 		* Scrum feat. Robo-Erik.
-	* 9:13am PST - 
+	* 9:13am PST - 10:31am PST
 		* Working on downgrading NVM to 1.1.11.
 			* Attempted to downgrade directly. Did not work.
 			* Attempted to uninstall. Noted that uninstalling would remove all global packages. Attempted a manual overwrite of version 1.1.11 again. This seemed to work. Attempted manual upgrade to 1.1.12. Still not working. Went through manual overwrite process down to 1.1.11 again. Will stay on this version for now. Confirmed functionality.
@@ -22,6 +22,9 @@
 			* Learn about automated testing through Jasmine (write) Karma (run). Perform walkthrough of Angular-specific webpack components.
 			* Learned about mono-repo (creating multiple projects in singular workspace).
 			* Noted that tutorial is using a severely outdated version of Angular and a lot of the component / modules are structured completely differently from the latest version. Looking for tutorials for Angular 17.
+	* 10:31am PST - 
+		* Located [Angular 17 tutorial](https://www.youtube.com/watch?v=2trkY4UfU7U&list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76&index=2). Updated tracker spreadsheet and will use this one going forward.
+			* Learned about Angular 17 `angular.json` file and made configuration changes as necessary.
 
 
 
