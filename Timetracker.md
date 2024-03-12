@@ -18,6 +18,8 @@
 		* Continued watching Angular video.
 			* Installed `@angular/cli`
 			* Ran into some issues getting installation to work, but got version 17.2.3 installed successfully.
+			* Create first project - [Hotel Inventory App](https://github.com/mejia-dev/hotel-inventory).
+			* Learn about automated testing through Karma. Perform walkthrough of Angular-specific webpack components.
 
 
 
