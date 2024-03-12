@@ -12,6 +12,14 @@
 		* Scrum feat. Robo-Erik.
 	* 9:13am PST - 
 		* Working on downgrading NVM to 1.1.11.
+			* Attempted to downgrade directly. Did not work.
+			* Attempted to uninstall. Noted that uninstalling would remove all global packages. Attempted a manual overwrite of version 1.1.11 again. This seemed to work. Attempted manual upgrade to 1.1.12. Still not working. Went through manual overwrite process down to 1.1.11 again. Will stay on this version for now. Confirmed functionality.
+		* Installed Node.js version 20.11.1 through NVM. All set to use.
+		* Continued watching Angular video.
+			* Installed `@angular/cli`
+			* Ran into some issues getting installation to work, but got version 17.2.3 installed successfully.
+
+
 
 * 2024-03-11
 	* 7:45am PST - 8:30am PST
