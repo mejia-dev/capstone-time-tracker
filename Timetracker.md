@@ -58,6 +58,7 @@
 			* Learning SASS styling and BEM model for scalability of code.
 			* Add new side-bar component to site.
 			* Add function that expands and contracts sidebar.
+			* Add autoresize of main content based on sidebar expansion.
 
 
 * 2024-03-11
