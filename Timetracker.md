@@ -54,6 +54,7 @@
 			* Installed ng-bootstrap in the application.
 			* Working on creating homepage using Components.
 			* Complete MVP for homepage.
+			* Complete stylized searching with Bootstrap.
 
 
 * 2024-03-11
