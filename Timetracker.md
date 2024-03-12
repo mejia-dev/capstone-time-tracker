@@ -27,9 +27,24 @@
 			* Learned about Angular 17 `angular.json` file and made configuration changes as necessary.
 			* Learned about Bootstrapping.
 			* Adjust my project to use SCSS instead of CSS.
-	* 11:31am PST - pm PST
+	* 11:31am PST - 12:15pm PST
 		* Noah's whiteboarding session
 			* Realized what the point of the N value was in the whiteboarding prompt. My second attempt at it yesterday was actually correct, since I shouldn't have assumed that the array was sorted. This explains the need for the N variable, since N leads to us not needing an actual sorting algorithm, because we already have the upper bound defined. Nice!
+			* Also kinda wondering if a `Set` could be used for this, then checking `Set.prototype.has()`. May explore this a bit after lunch.
+			* Ended up exploring it while Noah was getting feedback lol. Seems like you don't even need `N` which is kinda cool (I'm pretty sure about that this time).
+				```javascript
+				function findMissing(array) {
+					const setFromArray = new Set(array);
+					// just gonna have i start from 1 to avoid having to do a -1
+					for (let i = 1; i <= array.length; i++) {
+						if (!setFromArray.has(i)) {
+							return i;
+						}
+					}
+					return null;
+				}
+				```
+
 
 
 * 2024-03-11
