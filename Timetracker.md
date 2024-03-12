@@ -53,6 +53,7 @@
 			* Began reviewing frontend of finished example project. Learned about Bootstrap with Angular.
 			* Installed ng-bootstrap in the application.
 			* Working on creating homepage using Components.
+			* Complete MVP for homepage.
 
 
 * 2024-03-11
