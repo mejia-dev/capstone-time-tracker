@@ -36,7 +36,7 @@
 				* Install [ag-grid](https://ag-grid.com/angular-data-grid/getting-started/) and add records component.
 				* Add ag-grid to student records component.
 				* Move landing-related elements and data to new "landing" component.
-
+				* Setup prereqs for basic routing.
 
 * 2024-03-12
 	* 7:45am PST - 8:12am PST
