@@ -21,6 +21,12 @@
 					return parseInt(finalArray.join(""));
 			};
 			```
+	* 8:14am PST - 
+		* Wanted to learn more of the logic behind what the [Angular video tutorial](https://www.youtube.com/watch?v=abIK3mAj_VA&list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76&index=10) is teaching. 
+			* Started the [Codecademy course on AngularJS](https://www.codecademy.com/learn/learn-angularjs) only to discover project is set up differently.
+			* After doing some more research, discovered that "Angular" was [built to replace "AngularJS"](https://radixweb.com/blog/angular-vs-angularjs). 
+			* Looked for more Angular 17 explainers but didn't find many. Resolved to look through [the docs](https://angular.io/guide/understanding-angular-overview) instead. 
+
 
 
 * 2024-03-12
