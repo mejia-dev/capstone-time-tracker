@@ -37,6 +37,7 @@
 				* Add ag-grid to student records component.
 				* Move landing-related elements and data to new "landing" component.
 				* Setup prereqs for basic routing.
+				* Learning about Angular Router
 
 * 2024-03-12
 	* 7:45am PST - 8:12am PST
