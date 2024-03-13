@@ -57,6 +57,7 @@
 		* Add dashboard component
 		* Quick pause on normal to do sourcemap research for Kim.
 		* Update routing. Previously-created components now require authentication.
+		* Update routing to lazily render dashboard and child components only after login
 
 * 2024-03-12
 	* 7:45am PST - 8:12am PST
