@@ -44,6 +44,12 @@
 			* Add "auth-guard" guard to project.
 	* 12pm PST - 1pm PST
 		* Lunch
+	* 1pm PST - 1:30 PST
+		* Add route restriction via auth-guard guard
+	* 1:30pm PST - 1:53pm PST
+		* Whiteboarding!
+	* 1:53pm PST - 
+		* Learning about Angular lazy loading
 
 * 2024-03-12
 	* 7:45am PST - 8:12am PST
