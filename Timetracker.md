@@ -28,19 +28,21 @@
 			* Looked for more Angular 17 explainers but didn't find many. Resolved to look through [the docs](https://angular.io/guide/understanding-angular-overview) instead. 
 	* 9am PST - 9:12am PST
 		* Scrum
-	* 9:12 am PST -
+	* 9:12 am PST - 12pm PST
 		* More reading Angular docs: 
 			* [Components](https://angular.io/guide/component-overview). 
 			* [Architecture](https://angular.io/guide/architecture).
-			* After understanding more about Angular, continued watching [ag-grid and Router tutorial](https://www.youtube.com/watch?v=abIK3mAj_VA&list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76&index=10) for use in [my sample project](https://github.com/mejia-dev/students-details).
-				* Install [ag-grid](https://ag-grid.com/angular-data-grid/getting-started/) and add records component.
-				* Add ag-grid to student records component.
-				* Move landing-related elements and data to new "landing" component.
-				* Setup prereqs for basic routing.
-				* Learning about Angular Router
-				* Fix bugs in app.config and app.routes and establish basic routing
-				* Add working ag-grid implementation using column definitions.
-				* Begin researching authentication.
+		* After understanding more about Angular, continued watching [ag-grid and Router tutorial](https://www.youtube.com/watch?v=abIK3mAj_VA&list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76&index=10) for use in [my sample project](https://github.com/mejia-dev/students-details).
+			* Install [ag-grid](https://ag-grid.com/angular-data-grid/getting-started/) and add records component.
+			* Add ag-grid to student records component.
+			* Move landing-related elements and data to new "landing" component.
+			* Setup prereqs for basic routing.
+			* Learning about Angular Router
+			* Fix bugs in app.config and app.routes and establish basic routing
+			* Add working ag-grid implementation using column definitions.
+			* Begin researching authentication.
+			* Add "auth-guard" guard to project.
+	
 
 * 2024-03-12
 	* 7:45am PST - 8:12am PST
