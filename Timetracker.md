@@ -40,6 +40,7 @@
 				* Learning about Angular Router
 				* Fix bugs in app.config and app.routes and establish basic routing
 				* Add working ag-grid implementation using column definitions.
+				* Begin researching authentication.
 
 * 2024-03-12
 	* 7:45am PST - 8:12am PST
