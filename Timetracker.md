@@ -48,8 +48,10 @@
 		* Add route restriction via auth-guard guard
 	* 1:30pm PST - 1:53pm PST
 		* Whiteboarding!
-	* 1:53pm PST - 
+	* 1:53pm PST - 2:35pm PST
 		* Learning about Angular lazy loading
+	* 2:34pm - 2:57pm PST
+		* Brain break
 
 * 2024-03-12
 	* 7:45am PST - 8:12am PST
