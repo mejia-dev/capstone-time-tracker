@@ -32,7 +32,9 @@
 		* More reading Angular docs: 
 			* [Components](https://angular.io/guide/component-overview). 
 			* [Architecture](https://angular.io/guide/architecture).
-			* After understanding more about Angular, continued watching [ag-grid and Router tutorial](https://www.youtube.com/watch?v=abIK3mAj_VA&list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76&index=10).
+			* After understanding more about Angular, continued watching [ag-grid and Router tutorial](https://www.youtube.com/watch?v=abIK3mAj_VA&list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76&index=10) for use in [my sample project](https://github.com/mejia-dev/students-details).
+				* Install [ag-grid](https://ag-grid.com/angular-data-grid/getting-started/) and add records component.
+				* 
 
 
 
