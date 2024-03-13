@@ -29,7 +29,9 @@
 	* 9am PST - 9:12am PST
 		* Scrum
 	* 9:12 am PST -
-		* 
+		* More reading Angular docs: 
+			* [Components](https://angular.io/guide/component-overview). 
+			* [Architecture](https://angular.io/guide/architecture).
 
 
 
