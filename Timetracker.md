@@ -42,7 +42,8 @@
 			* Add working ag-grid implementation using column definitions.
 			* Begin researching authentication.
 			* Add "auth-guard" guard to project.
-	
+	* 12pm PST - 1pm PST
+		* Lunch
 
 * 2024-03-12
 	* 7:45am PST - 8:12am PST
