@@ -1,6 +1,29 @@
 # Timetracker
 
 * 2024-03-12
+	* 7:45am PST - 8:14am PST
+		* Warmup [Leetcode problem](https://leetcode.com/problems/reverse-integer/). Solution:
+			```javascript
+			/**
+			 * @param {number} x
+			* @return {number}
+			*/
+			var reverse = function(x) {
+					let digitArray = x.toString().split("");
+					let finalArray = [];
+					if (digitArray[0] === "-") {
+							finalArray.push("-");
+							digitArray.shift();
+					}
+					for (let i = digitArray.length; i > 0; i--) {
+							finalArray.push(digitArray[i - 1]);
+					}
+					return parseInt(finalArray.join(""));
+			};
+			```
+
+
+* 2024-03-12
 	* 7:45am PST - 8:12am PST
 		* Setup for the day.
 		* Warmup [Leetcode problem](https://leetcode.com/problems/add-two-numbers/).
