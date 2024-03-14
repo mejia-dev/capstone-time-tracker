@@ -62,6 +62,9 @@
 		* Brief pause to assist Ravin with React Native. Determined that both `expo-router/babel` and `babel-preset-expo` were installed in the `babel.config.js` file. Commenting out the deprecated `expo-router/babel` allowed the app to compile for the web.
 	* 1:35pm PST - pm PST
 		* Begin portfolio project
+		* Researching project ideas. Decided to go with a chat app frontend. Will add backend using Mongo and Python. 
+			* Watching [Firestore authentication videos](https://www.youtube.com/watch?v=586O934xrhQ&list=PL5SnQaxNFeTElFjnhH6ylWXTCapePT2Th&index=2&pp=gAQBiAQB) and other lazy loading resources.
+			* Created [project repo](https://github.com/mejia-dev/smaart-chat/).
 
 
 * 2024-03-12
