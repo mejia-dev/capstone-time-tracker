@@ -52,6 +52,10 @@
 			* May have been wiser to learn an older version of Angular that is more common in the workplace and would potentially have some better guides and tutorials available. Will probably end up building out a portfolio-ready project and then moving away from Angular for a "final" project. Maybe instead of a [M](https://www.mongodb.com/)[A](https://angular.io/)[P](https://www.python.org/) stack as originally planned, I could do a [M](https://www.mongodb.com/)[R](https://react.dev/)[P](https://www.python.org/) stack instead. Will figure this out later.
 			* Discussed potentially using JavaScript for my capstone despite having to manually write functions for collision detection, delta time calculations, etc. This would likely be more marketable to employers than using Unity/Godot. Will likely proceed with this idea.
 			* Discussed time tracker.
+	* 11:49am PST - 12pm PST
+		* Notes cleanup.
+	* 12pm PST - 1pm PST
+		* Lunch
 
 
 * 2024-03-12
