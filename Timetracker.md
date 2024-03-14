@@ -70,6 +70,7 @@
 		* Create Firebase project.
 		* WIP commit during Firebase setup/troubleshooting `ng add @angular/fire`.
 		* Successfully added Firebase to project and registration is working.
+		* Add working login.
 
 * 2024-03-12
 	* 7:45am PST - 8:14am PST
