@@ -33,6 +33,9 @@
 		* Reading up on Angular authentication to try to understand some of the remaining topics in the video.
 	* 9am PST - 9:10am PST
 		* Scrum
+	* 9:10am PST - 
+		* Found another [Angular Auth video](https://www.youtube.com/watch?v=R8a8ituFkls). Appears that the main concept of an auth service is the same, but the difference may be that the original tutorial is using "guard-ed" routes.
+		* Also looking into lazy loading from the [same source](https://www.youtube.com/watch?v=NFJbXP6Ci98).
 
 
 * 2024-03-12
