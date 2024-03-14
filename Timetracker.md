@@ -29,7 +29,10 @@
 			};
 			```
 			* This one took some time to figure out. Was initially trying to do it non-recursively and realized that that would probably overcomplicate it.
-	* 8:22am PST - 
+	* 8:22am PST - 9am PST
+		* Reading up on Angular authentication to try to understand some of the remaining topics in the video.
+	* 9am PST - 
+		* Scrum
 
 
 * 2024-03-12
