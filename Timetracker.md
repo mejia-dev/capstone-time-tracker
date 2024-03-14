@@ -33,7 +33,7 @@
 		* Reading up on Angular authentication to try to understand some of the remaining topics in the video.
 	* 9am PST - 9:10am PST
 		* Scrum
-	* 9:10am PST - 
+	* 9:10am PST - 11:30am PST
 		* Found another [Angular Auth video](https://www.youtube.com/watch?v=R8a8ituFkls). Appears that the main concept of an auth service is the same, but the difference may be that the original tutorial is using "guard-ed" routes.
 		* Also looking into lazy loading from the [same source](https://www.youtube.com/watch?v=NFJbXP6Ci98).
 		* Will continue following [original tutorial](https://www.youtube.com/watch?v=YohZzT7g_S8&list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76&index=12) to build [sample project](https://github.com/mejia-dev/students-details).
@@ -42,6 +42,9 @@
 			* Finish first example form. Unclear how redirection is supposed to work with this implementation, but the videos usually get to important points in a roundabout way.
 			* Noted that video tutorial has moved on from the login form. Checking example repo to see if solution is listed there.
 				* No changes of note. Noticed that there is a delay of 2000 milliseconds set (since we're simulating using an actual auth API and not using a real one). While the console.log in the redirection code *is* returning `true` (indicating that the login has been completed successfully), there may be some sort of a delay required to process the redirection. Going to attempt to reduce 2000 millisecond delay to 1000, and try to see if I can implement another delay in the redirection code to account for the delay. If this works, will try to convert to async login function (as I assume it would be in a real-world scenario).
+				* This did not work. There is a chance that some of this isn't working due to not using a real authentication platform. Everything is `console.log`ging fine and it is using the `subscribe` method which appears to asyncrhonously wait for an event to occur. 
+				* Scoured [template repo](https://github.com/deepakjha14/yt-students-details-app/tree/main) but didn't see any significant changes between the way auth was handled in mine and in the template. Cloned the repo and confirmed that redirection works, although lots of the other functionality was different than the tutorial video.
+				* Hilariously (🙃) located the issue. `auth.service.ts` was importing `delay` and `tap` from the `rxjs` library instead of the `rxjs/operators` library. I don't quite understand why this worked, or even caused an issue to begin with. Will look into it more later.
 
 
 * 2024-03-12
