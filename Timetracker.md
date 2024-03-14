@@ -68,6 +68,7 @@
 		* Created project, created first component then realized I wasn't prompted for options like SG or SSR on install. Did some research and determined that it was because the app was created through the git bash terminal (a known issue on Windows). Deleted the project and recreated it through the command prompt.
 		* Add basic components for login and registration. 
 		* Create Firebase project.
+		* WIP commit during Firebase setup/troubleshooting `ng add @angular/fire`
 
 * 2024-03-12
 	* 7:45am PST - 8:14am PST
