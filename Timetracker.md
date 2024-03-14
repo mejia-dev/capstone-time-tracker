@@ -1,6 +1,38 @@
 # Timetracker
 
 * 2024-03-12
+	* 7:45am PST - 8:22am PST
+		* Warmup [Leetcode problem](https://leetcode.com/problems/permutations/description/). Solution:
+			```javascript
+			/**
+			 * @param {number[]} nums
+			* @return {number[][]}
+			*/
+			var permute = function(nums) {
+				const resultArray = [];
+				function recursiveBuilder(pmtArray, remainderArray) {
+						if (remainderArray.length === 0) {
+								resultArray.push(pmtArray.slice());
+								return;
+						}
+
+						for (let i = 0; i < remainderArray.length; i++) {
+								pmtArray.push(remainderArray[i]);
+								const numsLeftArray = remainderArray.slice(0, i).concat(remainderArray.slice(i + 1));
+								recursiveBuilder(pmtArray, numsLeftArray);
+								pmtArray.pop();
+						}
+				}
+
+				recursiveBuilder([], nums);
+				return resultArray;
+			};
+			```
+			* This one took some time to figure out. Was initially trying to do it non-recursively and realized that that would probably overcomplicate it.
+	* 8:22am PST - 
+
+
+* 2024-03-12
 	* 7:45am PST - 8:14am PST
 		* Warmup [Leetcode problem](https://leetcode.com/problems/reverse-integer/). Solution:
 			```javascript
