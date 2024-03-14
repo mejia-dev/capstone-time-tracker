@@ -39,6 +39,7 @@
 		* Will continue following [original tutorial](https://www.youtube.com/watch?v=YohZzT7g_S8&list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76&index=12) to build [sample project](https://github.com/mejia-dev/students-details).
 			* Render basic authentication portal with conditional buttons.
 			* Add login and logout functions to form.
+			* Finish first example form. Unclear how redirection is supposed to work with this implementation, but the videos usually get to important points in a roundabout way.
 
 
 * 2024-03-12
