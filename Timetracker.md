@@ -56,6 +56,12 @@
 		* Notes cleanup.
 	* 12pm PST - 1pm PST
 		* Lunch
+	* 1pm PST - 1:25pm PST
+		* Continue watching Angular video. Started planning for portfolio-ready project.
+	* 1:25pm PST - 1:35pm PST
+		* Brief pause to assist Ravin with React Native. Determined that both `expo-router/babel` and `babel-preset-expo` were installed in the `babel.config.js` file. Commenting out the deprecated `expo-router/babel` allowed the app to compile for the web.
+	* 1:35pm PST - pm PST
+		* Begin portfolio project
 
 
 * 2024-03-12
