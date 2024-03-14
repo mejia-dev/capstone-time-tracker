@@ -65,7 +65,7 @@
 		* Researching project ideas. Decided to go with a chat app frontend. Will add backend using Mongo and Python. 
 			* Watching [Firestore authentication videos](https://www.youtube.com/watch?v=586O934xrhQ&list=PL5SnQaxNFeTElFjnhH6ylWXTCapePT2Th&index=2&pp=gAQBiAQB) and other lazy loading resources.
 			* Created [project repo](https://github.com/mejia-dev/smaart-chat/).
-		* Created project, created first component then realized I wasn't prompted for options like SG or SSR on install. Did some research and determined that it was because the app was created through the git bash terminal (a known issue on Windows). Deleted the project and recreated it through the command line.
+		* Created project, created first component then realized I wasn't prompted for options like SG or SSR on install. Did some research and determined that it was because the app was created through the git bash terminal (a known issue on Windows). Deleted the project and recreated it through the command prompt.
 
 
 * 2024-03-12
