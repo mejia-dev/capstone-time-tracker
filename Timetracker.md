@@ -33,7 +33,7 @@
 		* Reading up on Angular authentication to try to understand some of the remaining topics in the video.
 	* 9am PST - 9:10am PST
 		* Scrum
-	* 9:10am PST - 11:30am PST
+	* 9:10am PST - 11:31am PST
 		* Found another [Angular Auth video](https://www.youtube.com/watch?v=R8a8ituFkls). Appears that the main concept of an auth service is the same, but the difference may be that the original tutorial is using "guard-ed" routes.
 		* Also looking into lazy loading from the [same source](https://www.youtube.com/watch?v=NFJbXP6Ci98).
 		* Will continue following [original tutorial](https://www.youtube.com/watch?v=YohZzT7g_S8&list=PL3EibBwUnE37aZ937p2L2VoozXUKcsI76&index=12) to build [sample project](https://github.com/mejia-dev/students-details).
@@ -45,6 +45,13 @@
 				* This did not work. There is a chance that some of this isn't working due to not using a real authentication platform. Everything is `console.log`ging fine and it is using the `subscribe` method which appears to asyncrhonously wait for an event to occur. 
 				* Scoured [template repo](https://github.com/deepakjha14/yt-students-details-app/tree/main) but didn't see any significant changes between the way auth was handled in mine and in the template. Cloned the repo and confirmed that redirection works, although lots of the other functionality was different than the tutorial video.
 				* Hilariously (🙃) located the issue. `auth.service.ts` was importing `delay` and `tap` from the `rxjs` library instead of the `rxjs/operators` library. I don't quite understand why this worked, or even caused an issue to begin with. Will look into it more later.
+	* 11:31am PST - 11:49am PST
+		* PDP Checkin meeting with Erik.
+			* Discussed Angular progress.
+			* Discussed Angular struggles, specifically with the import statements.
+			* May have been wiser to learn an older version of Angular that is more common in the workplace and would potentially have some better guides and tutorials available. Will probably end up building out a portfolio-ready project and then moving away from Angular for a "final" project. Maybe instead of a [M](https://www.mongodb.com/)[A](https://angular.io/)[P](https://www.python.org/) stack as originally planned, I could do a [M](https://www.mongodb.com/)[R](https://react.dev/)[P](https://www.python.org/) stack instead. Will figure this out later.
+			* Discussed potentially using JavaScript for my capstone despite having to manually write functions for collision detection, delta time calculations, etc. This would likely be more marketable to employers than using Unity/Godot. Will likely proceed with this idea.
+			* Discussed time tracker.
 
 
 * 2024-03-12
