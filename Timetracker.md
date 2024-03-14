@@ -41,6 +41,7 @@
 			* Add login and logout functions to form.
 			* Finish first example form. Unclear how redirection is supposed to work with this implementation, but the videos usually get to important points in a roundabout way.
 			* Noted that video tutorial has moved on from the login form. Checking example repo to see if solution is listed there.
+				* No changes of note. Noticed that there is a delay of 2000 milliseconds set (since we're simulating using an actual auth API and not using a real one). While the console.log in the redirection code *is* returning `true` (indicating that the login has been completed successfully), there may be some sort of a delay required to process the redirection. Going to attempt to reduce 2000 millisecond delay to 1000, and try to see if I can implement another delay in the redirection code to account for the delay. If this works, will try to convert to async login function (as I assume it would be in a real-world scenario).
 
 
 * 2024-03-12
