@@ -40,6 +40,7 @@
 			* Render basic authentication portal with conditional buttons.
 			* Add login and logout functions to form.
 			* Finish first example form. Unclear how redirection is supposed to work with this implementation, but the videos usually get to important points in a roundabout way.
+			* Noted that video tutorial has moved on from the login form. Checking example repo to see if solution is listed there.
 
 
 * 2024-03-12
