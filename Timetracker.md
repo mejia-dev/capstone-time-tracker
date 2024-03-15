@@ -60,7 +60,7 @@
 		* Continue watching Angular video. Started planning for portfolio-ready project.
 	* 1:25pm PST - 1:35pm PST
 		* Brief pause to assist Ravin with React Native. Determined that both `expo-router/babel` and `babel-preset-expo` were installed in the `babel.config.js` file. Commenting out the deprecated `expo-router/babel` allowed the app to compile for the web.
-	* 1:35pm PST - pm PST
+	* 1:35pm PST - 5:02pm PST
 		* Begin portfolio project
 		* Researching project ideas. Decided to go with a chat app frontend. Will add backend using Mongo and Python. 
 			* Watching [Firestore authentication videos](https://www.youtube.com/watch?v=586O934xrhQ&list=PL5SnQaxNFeTElFjnhH6ylWXTCapePT2Th&index=2&pp=gAQBiAQB) and other lazy loading resources.
@@ -73,6 +73,7 @@
 		* Add working login.
 		* Research how Firebase persists throughout different pages.
 		* Add working logout button.
+		* Push to [GitHub repo](https://github.com/mejia-dev/smaart-chat/). Still need to determine how to properly store enviornment variables in Angular before considering this working code.
 
 * 2024-03-12
 	* 7:45am PST - 8:14am PST
