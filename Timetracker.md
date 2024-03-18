@@ -37,7 +37,7 @@
 			* Found a faster [basics course](https://www.youtube.com/watch?v=VchuKL44s6E).
 	* 9am PST - 9:15am
 		* Scrum
-	* 9:15am - 
+	* 9:15am PST - 12pm PST
 		* More Python review.
 			* Brief sidetrack onto what modulo is used for. Seems to mostly be used for checking positive / negative. Most interesting use case would be to do something every `n`th time [through a loop](https://hatoum.com/blog/2012/12/practical-uses-for-modulo-operator.html):
 				```javascript
@@ -56,7 +56,10 @@
 			* experimenting with different for loop concepts.
 			* More thorough review on comprehensions.
 			* Do some more testing with *args and **kwargs. This is not something I'd learned much of previously. Will move on for now but may need to revisit later if this ends up being a core component of something I'm writing.
-
+	* 12pm PST - 1pm PST
+		* Lunch
+	* 1pm PST - 
+		* Applying for [a dream job](https://boards.greenhouse.io/350org/jobs/5802026) I found that has an application deadline.
 
 ### Week 1
 
