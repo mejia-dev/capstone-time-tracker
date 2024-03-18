@@ -68,6 +68,8 @@
 				* https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 				* https://medium.com/quick-code/5-python-libraries-to-make-backend-development-easy-76141f47473a
 			* Spent some time trying to figure out which backend framework shows up in jobs most often. Decided to go with Django instead of Flask. Django seems to be production / professional quality whereas Flask is more enthusiast-focused.
+		* Following [Django tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial01/).
+			* Running into some issues getting Django set up on my machine.
 
 ### Week 1
 
