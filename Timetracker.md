@@ -34,6 +34,11 @@
 		* Draft email to Erik.
 		* Continue working on Python.
 			* Reviewing basics through [Codecademy Harvard video](https://www.youtube.com/watch?v=nLRL_NcnK-4).
+			* Found a faster [basics course](https://www.youtube.com/watch?v=VchuKL44s6E).
+	* 9am PST - 9:15am
+		* Scrum
+	* 9:15am - 
+		* More Python review.
 
 
 ### Week 1
