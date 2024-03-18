@@ -39,6 +39,20 @@
 		* Scrum
 	* 9:15am - 
 		* More Python review.
+			* Brief sidetrack onto what modulo is used for. Seems to mostly be used for checking positive / negative. Most interesting use case would be to do something every `n`th time [through a loop](https://hatoum.com/blog/2012/12/practical-uses-for-modulo-operator.html):
+				```javascript
+				for (x=0; x <100000; x++) {
+
+						// do regular stuff here
+				
+						// do something special every 9th time through
+						// the loop
+						if (x % 9 == 0) {
+								// important stuff here
+						}
+				}
+				```
+		* More Python review
 
 
 ### Week 1
