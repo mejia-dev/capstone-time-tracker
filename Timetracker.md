@@ -52,7 +52,8 @@
 						}
 				}
 				```
-		* More Python review
+		* More Python review.
+			* experimenting with different for loop concepts.
 
 
 ### Week 1
