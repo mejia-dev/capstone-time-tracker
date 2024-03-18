@@ -58,8 +58,9 @@
 			* Do some more testing with *args and **kwargs. This is not something I'd learned much of previously. Will move on for now but may need to revisit later if this ends up being a core component of something I'm writing.
 	* 12pm PST - 1pm PST
 		* Lunch
-	* 1pm PST - 
+	* 1pm PST - 2:28pm PST
 		* Applying for [a dream job](https://boards.greenhouse.io/350org/jobs/5802026) I found that has an application deadline.
+		* Complete application. Back to Python.
 
 ### Week 1
 
