@@ -1,5 +1,27 @@
 # Timetracker
 
+### Week 2
+* 2024-03-18
+	* 7:45am PST - PST
+		* Read Week homework -- all review, skimmed mostly.
+		* First [whiteboarding question](https://full-time.learnhowtoprogram.com/capstone/capstone-week-3/whiteboarding-practice---week-2#product-of-array-except-self) for warmup:
+			```javascript
+			// Input: [1, 2, 3, 4]
+			// Output: [24, 12, 8, 6]
+			// Given an array nums of n integers where n > 1, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+			// Constraints: Do your best to complete this without a nested loop
+
+			// Steps to Solve:
+				// create empty newArray
+				// multiply all the values in the inputArray and assign to a temp value called bigProduct.
+				// for each indexItem in the inputArray, let the corresponding newArray position = bigProduct divided by the value of indexItem.
+				// return newArray
+
+			```
+
+
+### Week 1
+
 * 2024-03-12
 	* 7:45am PST - 8:22am PST
 		* Warmup [Leetcode problem](https://leetcode.com/problems/permutations/description/). Solution:
