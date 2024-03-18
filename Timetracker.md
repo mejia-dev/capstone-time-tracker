@@ -54,6 +54,7 @@
 				```
 		* More Python review.
 			* experimenting with different for loop concepts.
+			* More thorough review on comprehensions.
 
 
 ### Week 1
