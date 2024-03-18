@@ -60,7 +60,14 @@
 		* Lunch
 	* 1pm PST - 2:28pm PST
 		* Applying for [a dream job](https://boards.greenhouse.io/350org/jobs/5802026) I found that has an application deadline.
+	* 2:28pm PST - 
 		* Complete application. Back to Python.
+			* Reading some resources:
+				* https://blog.hubspot.com/website/python-backend
+				* https://www.freecodecamp.org/news/python-back-end-development-the-beginners-guide/
+				* https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+				* https://medium.com/quick-code/5-python-libraries-to-make-backend-development-easy-76141f47473a
+			* Spent some time trying to figure out which backend framework shows up in jobs most often. Decided to go with Django instead of Flask. Django seems to be production / professional quality whereas Flask is more enthusiast-focused.
 
 ### Week 1
 
