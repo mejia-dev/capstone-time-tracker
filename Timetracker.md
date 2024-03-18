@@ -70,6 +70,8 @@
 			* Spent some time trying to figure out which backend framework shows up in jobs most often. Decided to go with Django instead of Flask. Django seems to be production / professional quality whereas Flask is more enthusiast-focused.
 		* Following [Django tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial01/).
 			* Running into some issues getting Django set up on my machine.
+			* Appears Python version needed to be updated. Updated python to 3.12 and this resolved all the issues. Will likely start actually following tutorial tomorrow. 
+			* Did some additional research into jobs requiring Django.
 
 ### Week 1
 
