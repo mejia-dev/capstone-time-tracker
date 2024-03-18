@@ -55,6 +55,7 @@
 		* More Python review.
 			* experimenting with different for loop concepts.
 			* More thorough review on comprehensions.
+			* Do some more testing with *args and **kwargs. This is not something I'd learned much of previously. Will move on for now but may need to revisit later if this ends up being a core component of something I'm writing.
 
 
 ### Week 1
