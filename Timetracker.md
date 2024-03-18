@@ -60,7 +60,7 @@
 		* Lunch
 	* 1pm PST - 2:28pm PST
 		* Applying for [a dream job](https://boards.greenhouse.io/350org/jobs/5802026) I found that has an application deadline.
-	* 2:28pm PST - 
+	* 2:28pm PST - 4:45pm PST
 		* Complete application. Back to Python.
 			* Reading some resources:
 				* https://blog.hubspot.com/website/python-backend
