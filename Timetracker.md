@@ -2,7 +2,7 @@
 
 ### Week 2
 * 2024-03-18
-	* 7:45am PST - PST
+	* 7:45am PST - 9am PST
 		* Read Week homework -- all review, skimmed mostly.
 		* First [whiteboarding question](https://full-time.learnhowtoprogram.com/capstone/capstone-week-3/whiteboarding-practice---week-2#product-of-array-except-self) for warmup:
 			```javascript
@@ -17,7 +17,23 @@
 				// for each indexItem in the inputArray, let the corresponding newArray position = bigProduct divided by the value of indexItem.
 				// return newArray
 
+			function multArrayExceptSelf(inputArray) {
+				let newArray = [];
+				let bigProduct = 1;
+				inputArray.forEach((value) => {
+					bigProduct *= value;
+				})
+				for (let i = 0; i < inputArray.length; i++) {
+					newArray[i] = bigProduct / inputArray[i];
+				}
+				return newArray;
+			}
+			// No hints used. Time taken: 9 minutes.
 			```
+		* Begin working on Python.
+		* Draft email to Erik.
+		* Continue working on Python.
+			* Reviewing basics through [Codecademy Harvard video](https://www.youtube.com/watch?v=nLRL_NcnK-4).
 
 
 ### Week 1
