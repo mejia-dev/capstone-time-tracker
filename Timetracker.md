@@ -112,7 +112,7 @@
 		* Resume Django / MySQL [tutorial video](https://www.youtube.com/watch?v=5g_xIwxLSJk).
 	* 12pm PST - 1pm PST
 		* Lunch
-	* 1pm PST - pm PST
+	* 1pm PST - 4:45pm PST
 		* Continued [Django tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial02/).
 		* Created models and prepared project for database migration.
 		* Added models to database and added custom functions for display strings.
@@ -122,6 +122,7 @@
 		* Learning about the render() shortcut
 		* Learn about the get_object_or_404 shortcut.
 		* Implemented basic routing between Index and Detail views.
+		* [Template repo](https://github.com/mejia-dev/first-django) is in a good spot for today. Will start tomorrow with [form processing tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial04/).
 		
 
 * 2024-03-18
