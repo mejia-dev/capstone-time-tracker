@@ -44,6 +44,24 @@
 
 			// first attempt above. This seems to be a little trickier than first expected, now noticing that values can be repeated. Rethinking steps.
 
+			function mostWaterV2(inputArray) {
+				let largest = 0;
+				let indexOfLargest = 0;
+				let secondLargest = 0;
+				let indexOfSecondLargest = 0;
+				for (let i = 0; i < inputArray.length; i++) {
+					if (inputArray[i] >= largest) {
+						secondLargest = largest;
+						indexOfSecondLargest = indexOfLargest;
+						largest = inputArray[i]
+						indexOfLargest = i;
+					} else if (inputArray[i] > secondLargest && inputArray[i] < largest) {
+						secondLargest = inputArray[i]
+						indexOfSecondLargest = i;
+					}
+				}
+			}
+
 			```
 
 * 2024-03-18
