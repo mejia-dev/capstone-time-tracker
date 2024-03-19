@@ -110,6 +110,8 @@
 		* Quick pause to assist Brianca with relative path issue on a C# shared view where a logo would only show up on specific pages. Appears that line 4 of [the Header view](https://github.com/BriancaKnight/Pierre_Sweet_Treats.Solution/blob/main/Bakery/Views/Shared/_Header.cshtml) was set to use the relative path to the file `(src="../img/black.png")`. Changing it to the absolute path to the file `(src="~/img/black.png")` resolved the issue.
 	* 11:30am PST - 12pm PST
 		* Resume Django / MySQL [tutorial video](https://www.youtube.com/watch?v=5g_xIwxLSJk).
+	* 12pm PST - 1pm PST
+		* Lunch
 
 * 2024-03-18
 	* 7:45am PST - 9am PST
