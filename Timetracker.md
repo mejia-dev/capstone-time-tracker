@@ -103,6 +103,7 @@
 		* Created [GitHub repo](https://github.com/mejia-dev/first-django) for project.
 		* Confirmed working development server by running `manage.py runserver`
 		* Learning about views and urls in Django.
+		* Reading about database backends with Django.
 
 * 2024-03-18
 	* 7:45am PST - 9am PST
