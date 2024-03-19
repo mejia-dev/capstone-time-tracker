@@ -92,9 +92,15 @@
 			}
 			// Attempt not quite working right. My method (v2) works as expected, so won't worry about it for now.
 			```
-	* 9am PST - am PST
-		* Scrum
-	* am PST - am PST
+	* 9am PST - 9:15am PST
+		* Scrum.
+		* Discussing Python progress with Python group.
+	* 9:15am PST - am PST
+		* Continued following [Django tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial01/).
+		* Created virtual environment for first Django project.
+		* Initialized Django project.
+		* Reading up on gitignore practices for Django.
+		* Created [GitHub repo](https://github.com/mejia-dev/first-django) for project.
 
 * 2024-03-18
 	* 7:45am PST - 9am PST
