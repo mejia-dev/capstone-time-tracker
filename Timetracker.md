@@ -119,6 +119,7 @@
 		* Learned about the Django shell API.
 		* Learned about Django admin page. Allowed Django admin to make changes to Question data.
 		* Rendering database objects on pages
+		* Learning about the render() shortcut
 
 * 2024-03-18
 	* 7:45am PST - 9am PST
