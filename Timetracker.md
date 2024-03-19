@@ -114,6 +114,7 @@
 		* Lunch
 	* 1:30pm PST - pm PST
 		* Created models and prepared project for database migration.
+		* Added models to database and added custom functions for display strings.
 
 * 2024-03-18
 	* 7:45am PST - 9am PST
