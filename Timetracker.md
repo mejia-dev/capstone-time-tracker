@@ -112,6 +112,8 @@
 		* Resume Django / MySQL [tutorial video](https://www.youtube.com/watch?v=5g_xIwxLSJk).
 	* 12pm PST - 1pm PST
 		* Lunch
+	* 1:30pm PST - pm PST
+		* Created models and prepared project for database migration.
 
 * 2024-03-18
 	* 7:45am PST - 9am PST
