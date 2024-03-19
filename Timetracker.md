@@ -50,7 +50,7 @@
 				let secondLargest = 0;
 				let indexOfSecondLargest = 0;
 				for (let i = 0; i < inputArray.length; i++) {
-					if (inputArray[i] >= largest) {
+					if (inputArray[i] > largest) {
 						secondLargest = largest;
 						indexOfSecondLargest = indexOfLargest;
 						largest = inputArray[i]
@@ -60,9 +60,41 @@
 						indexOfSecondLargest = i;
 					}
 				}
+				let sizeOfBase = indexOfLargest - indexOfSecondLargest;
+				return secondLargest * sizeOfBase
 			}
 
+			// This is functional, but would probably require the absolute value of sizeOfBase to be called so that it doesn't return negative. I don't know this off the top of my head, but will consider this completed. Time spent: 49 minutes.
+			// Researched and located Math.abs(). Second to last line should be:
+			let sizeOfBase = Math.abs(indexOfLargest - indexOfSecondLargest);
+			// Tested this and confirmed it is working.
+
+			// Checking hints since there was likely a better way to do this.
+			function mostWaterV3(inputArray) {
+				let maxArea = 0;
+				let leftIndex = 0;
+				let rightIndex = inputArray.length -1;
+
+				while (leftIndex < rightIndex) {
+					const calculatedArea = Math.min(inputArray[leftIndex], inputArray[rightIndex]) * (rightIndex - leftIndex);
+					if (calculatedArea > maxArea) {
+						console.log(calculatedArea)
+						maxArea = calculatedArea;
+					}
+
+					if (inputArray[leftIndex] < inputArray[rightIndex]) {
+						leftIndex++;
+					} else {
+						rightIndex--;
+					}
+					return maxArea;
+				}
+			}
+			// Attempt not quite working right. My method (v2) works as expected, so won't worry about it for now.
 			```
+	* 9am PST - am PST
+		* Scrum
+	* am PST - am PST
 
 * 2024-03-18
 	* 7:45am PST - 9am PST
