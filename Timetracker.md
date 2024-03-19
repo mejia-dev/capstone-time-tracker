@@ -95,7 +95,7 @@
 	* 9am PST - 9:15am PST
 		* Scrum.
 		* Discussing Python progress with Python group.
-	* 9:15am PST - am PST
+	* 9:15am PST - 10:52am PST
 		* Continued following [Django tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial01/).
 		* Created virtual environment for first Django project.
 		* Initialized Django project.
@@ -104,6 +104,12 @@
 		* Confirmed working development server by running `manage.py runserver`
 		* Learning about views and urls in Django.
 		* Reading about database backends with Django.
+			* Documentation is spread across several different pages and isn't clear about which modules are actually needed to support MySQL.
+			* Located [tutorial video](https://www.youtube.com/watch?v=5g_xIwxLSJk).
+	* 10:52am PST - 11:30am PST
+		* Quick pause to assist Brianca with relative path issue on a C# shared view where a logo would only show up on specific pages. Appears that line 4 of [the Header view](https://github.com/BriancaKnight/Pierre_Sweet_Treats.Solution/blob/main/Bakery/Views/Shared/_Header.cshtml) was set to use the relative path to the file `(src="../img/black.png")`. Changing it to the absolute path to the file `(src="~/img/black.png")` resolved the issue.
+	* 11:30am PST - 12pm PST
+		* Resume Django / MySQL [tutorial video](https://www.youtube.com/watch?v=5g_xIwxLSJk).
 
 * 2024-03-18
 	* 7:45am PST - 9am PST
