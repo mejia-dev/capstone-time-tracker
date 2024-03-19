@@ -120,6 +120,9 @@
 		* Learned about Django admin page. Allowed Django admin to make changes to Question data.
 		* Rendering database objects on pages
 		* Learning about the render() shortcut
+		* Learn about the get_object_or_404 shortcut.
+		* Implemented basic routing between Index and Detail views.
+		
 
 * 2024-03-18
 	* 7:45am PST - 9am PST
