@@ -1,6 +1,51 @@
 # Timetracker
 
 ### Week 2
+
+* 2024-03-19
+	* 7:45am PST - 9am PST
+		* Second [whiteboarding question](https://full-time.learnhowtoprogram.com/capstone/capstone-week-3/whiteboarding-practice---week-2#container-with-most-water) for warmup:
+			```javascript
+			// Input: [1, 8, 6, 2, 5, 4, 8, 3, 7]
+			// Output: 49
+			// Explanation: The maximum area is obtained by selecting the minimum of the heights of the vertical lines ( ex: Math.min(8, 7) === 7) and multiplying it by the width between the lines (index 8 - index 1 === 7 spaces apart).
+			//
+			// Input: array = [1, 5, 4, 3]
+			// Output: 6
+			// Explanation : 
+			// 5 and 3 are distance 2 apart. 
+			// So the size of the base = 2. 
+			// Height of container = min(5, 3) = 3. 
+			// So total area = 3 * 2 = 6
+
+			// Steps to Solve:
+				// Determine two largest numbers. Get their indexes.
+				// find the smaller of the two largest numbers
+				// multiply that number by the indexes
+
+			function mostWater(inputArray) {
+				let maxArea = 0;
+				let indexA = 0;
+				let usedIndexA;
+				let indexB = inputArray.length -1;
+				for (let i = 0; i < inputArray.length; i++) {
+					if (indexA < inputArray[i]) {
+						indexA = inputArray[i];
+						usedIndexA = i;
+					}
+				}
+				for (let i = 0; i < inputArray.length; i++) {
+					if (indexB < inputArray[i] && i != usedIndexA) {
+						indexB = inputArray[i];
+					}
+				}
+				return [indexA, indexB]
+			}
+
+			// first attempt above. This seems to be a little trickier than first expected, now noticing that values can be repeated. Rethinking steps.
+
+			```
+
 * 2024-03-18
 	* 7:45am PST - 9am PST
 		* Read Week homework -- all review, skimmed mostly.
