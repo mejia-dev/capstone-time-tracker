@@ -112,9 +112,12 @@
 		* Resume Django / MySQL [tutorial video](https://www.youtube.com/watch?v=5g_xIwxLSJk).
 	* 12pm PST - 1pm PST
 		* Lunch
-	* 1:30pm PST - pm PST
+	* 1pm PST - pm PST
+		* Continued [Django tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial02/).
 		* Created models and prepared project for database migration.
 		* Added models to database and added custom functions for display strings.
+		* Learned about the Django shell API.
+		* Learned about Django admin page. Allowed Django admin to make changes to Question data.
 
 * 2024-03-18
 	* 7:45am PST - 9am PST
