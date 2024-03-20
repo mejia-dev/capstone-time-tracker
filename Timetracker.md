@@ -50,6 +50,7 @@
 		* Continue working on testing UI
 		* Write and pass tests for UI.
 		* Rendering static files. Also reading up on [server-side deployment](https://docs.djangoproject.com/en/5.0/howto/static-files/deployment/) of static files.
+		* Learning about tweaking admin display.
 
 * 2024-03-19
 	* 7:45am PST - 9am PST
