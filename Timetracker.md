@@ -41,6 +41,7 @@
 		* Learning about try/except/else statements in Django.
 		* Learning about generic views in order to DRY up code.
 		* Refactor urlConfig and viewsConfig to use generic views
+		* Learning about Django's testing suite.
 
 * 2024-03-19
 	* 7:45am PST - 9am PST
