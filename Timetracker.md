@@ -16,7 +16,23 @@
 					// if sortedStr does not exist as a key  in the hash map, create an array where str is the only value.
 					// if sortedStr DOES exist as a key in the hash map, locate the Value array and push str to it.
 				// return value of hash map
+
+			function getAnagrams(stringArray) {
+				let hashMap = {};
+				stringArray.forEach((str) => {
+					const sortedStr = str.split('').sort();
+					if (hashMap[sortedStr]) {
+						hashMap[sortedStr].push(str);
+					} else {
+						hashMap[sortedStr] = [str];
+					}
+				})
+				return Object.values(hashMap);
+			}
+
+			// solved in ~20 minutes. No hints used.
 			```
+		* Start working on Django [form processing tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial04/).
 
 * 2024-03-19
 	* 7:45am PST - 9am PST
