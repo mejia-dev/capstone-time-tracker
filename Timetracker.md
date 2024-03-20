@@ -2,6 +2,22 @@
 
 ### Week 2
 
+* 2024-03-20
+	* 7:58am PST - 9am PST
+		* Third [whiteboarding question](https://full-time.learnhowtoprogram.com/capstone/capstone-week-3/whiteboarding-practice---week-2#group-anagrams) for warmup:
+			```javascript
+			// Input: ["eat", "tea", "tan", "ate", "nat", "bat"]
+			// Output: [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]]
+
+			// assuming only strings, no null or undefined
+
+			// Steps to Solve:
+				// For each string (str) in the input, set all characters to lowercase, sort characters alphabetically and use that value (sortedStr) as a key in hash map.
+					// if sortedStr does not exist as a key  in the hash map, create an array where str is the only value.
+					// if sortedStr DOES exist as a key in the hash map, locate the Value array and push str to it.
+				// return value of hash map
+			```
+
 * 2024-03-19
 	* 7:45am PST - 9am PST
 		* Second [whiteboarding question](https://full-time.learnhowtoprogram.com/capstone/capstone-week-3/whiteboarding-practice---week-2#container-with-most-water) for warmup:
