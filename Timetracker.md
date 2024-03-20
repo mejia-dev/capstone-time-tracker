@@ -33,6 +33,12 @@
 			// solved in ~20 minutes. No hints used.
 			```
 		* Start working on Django [form processing tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial04/).
+	* 9am PST - 9:12am PST
+		* Scrum
+	* 9:12am PST - PST
+		* Continue working on form processing. 
+		* Turn details page on [my project](https://github.com/mejia-dev/first-django) into form.
+		* Learning about try/except/else statements in Django.
 
 * 2024-03-19
 	* 7:45am PST - 9am PST
