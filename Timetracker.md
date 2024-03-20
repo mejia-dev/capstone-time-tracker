@@ -54,6 +54,8 @@
 		* Change admin display for poll models. Will work on changing actual administration panel UI next.
 	* 3:45pm PST - 4pm PST
 		* Career Services meeting.
+	* 4pm PST - PST
+		* Trying to unravel the .gitignore file and see which parts are ignoring the admin directory.
 
 * 2024-03-19
 	* 7:45am PST - 9am PST
