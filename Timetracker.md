@@ -35,13 +35,19 @@
 		* Start working on Django [form processing tutorial](https://docs.djangoproject.com/en/5.0/intro/tutorial04/).
 	* 9am PST - 9:12am PST
 		* Scrum
-	* 9:12am PST - PST
+	* 9:12am PST - 12pm PST
 		* Continue working on form processing. 
 		* Turn details page on [my project](https://github.com/mejia-dev/first-django) into form.
 		* Learning about try/except/else statements in Django.
 		* Learning about generic views in order to DRY up code.
 		* Refactor urlConfig and viewsConfig to use generic views
 		* Learning about Django's testing suite.
+		* Successfully write and pass tests for Question model.
+		* Begin testing UI.
+	* 12pm PST - 1pm PST
+		* Lunch
+	* 1pm PST - pm PST
+		
 
 * 2024-03-19
 	* 7:45am PST - 9am PST
