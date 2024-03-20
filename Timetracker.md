@@ -48,6 +48,7 @@
 		* Lunch
 	* 1pm PST - pm PST
 		* Continue working on testing UI
+		* Write and pass tests for UI.
 
 * 2024-03-19
 	* 7:45am PST - 9am PST
