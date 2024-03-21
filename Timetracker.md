@@ -41,6 +41,8 @@
 			* Begin rebuilding project.
 			* Found better gitignore template
 			* Troubleshooting why django-admin won't run.
+				* Appears that the command just wouldn't run in powershell. Works fine in cmd.
+			* Pushed project to [repository](https://github.com/mejia-dev/pastry_paradise_bakery).
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
