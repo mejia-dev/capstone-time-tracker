@@ -51,9 +51,13 @@
 			* Learning about dotenv in Python (using [python-dotenv](https://pypi.org/project/python-dotenv/)) and creating [many-to-many relationships](https://docs.djangoproject.com/en/5.0/topics/db/examples/many_to_many/).
 	* 12pm PST - 1pm PST
 		* Lunch
-	* 1pm PST - 
+	* 1pm PST - 1:30pm PST
 		* Add flavor and treat models to project.
 		* Add migration to database and migrate successfully.
+	* 1:33pm PST - 1:45pm PST
+		* Meeting with Erik.
+	* 1:45pm PST - pm PST
+		* Set up superuser account.
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
