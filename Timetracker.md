@@ -40,6 +40,7 @@
 			* Begin determining which ASP.NET project to rebuild with Django.
 			* Begin rebuilding project.
 			* Found better gitignore template
+			* Troubleshooting why django-admin won't run.
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
