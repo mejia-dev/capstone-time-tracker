@@ -3,6 +3,44 @@
 ### Week 2
 
 * 2024-03-20
+	* 7:55am PST - PST
+		* Fourth [whiteboarding question](https://full-time.learnhowtoprogram.com/capstone/capstone-week-3/whiteboarding-practice---week-2#valid-parentheses) for warmup:
+			```javascript
+			// Input: "()[]{}"
+			//Output: true
+			// Input: "([)]"
+			// Output: false
+
+			// Steps to Solve:
+				// split input into array of individual single-character strings
+				// final result should be set to true. 
+				// Three if statements. 
+					// If NOT array.filter() of "[" count is equal to array.filter() of "]" count, set to false.
+					// If NOT array.filter() of "{" count is equal to array.filter() of "}" count, set to false.
+					// If NOT array.filter() of "(" count is equal to array.filter() of ")" count, set to false.
+				// return final result.
+
+			function validMatches(inputString) {
+				const splitArray = inputString.split("");
+				let result = true;
+
+				if (splitArray.filter(bracket => bracket === "[").length != (splitArray.filter(bracket => bracket === "]").length)) {
+					result = false;
+				}
+				if (splitArray.filter(bracket => bracket === "{").length != (splitArray.filter(bracket => bracket === '}').length)) {
+					result = false;
+				}
+				if (splitArray.filter(bracket => bracket === "(").length != (splitArray.filter(bracket => bracket === ')').length)) {
+					result = false;
+				}
+				return result;
+			}
+			// resolved. Time taken: 5 minutes. No hints used.
+			```
+			* Begin determining which ASP.NET project to rebuild with Django.
+			* Begin rebuilding project.
+
+* 2024-03-20
 	* 7:58am PST - 9am PST
 		* Third [whiteboarding question](https://full-time.learnhowtoprogram.com/capstone/capstone-week-3/whiteboarding-practice---week-2#group-anagrams) for warmup:
 			```javascript
