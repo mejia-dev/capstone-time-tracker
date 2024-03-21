@@ -53,6 +53,7 @@
 		* Lunch
 	* 1pm PST - 
 		* Add flavor and treat models to project.
+		* Add migration to database and migrate successfully.
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
