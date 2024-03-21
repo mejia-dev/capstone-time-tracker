@@ -3,7 +3,7 @@
 ### Week 2
 
 * 2024-03-20
-	* 7:55am PST - PST
+	* 7:55am PST - 12pm PST
 		* Fourth [whiteboarding question](https://full-time.learnhowtoprogram.com/capstone/capstone-week-3/whiteboarding-practice---week-2#valid-parentheses) for warmup:
 			```javascript
 			// Input: "()[]{}"
@@ -48,6 +48,9 @@
 			* Created a distributed file structure where venv is in a different place than the project data.
 			* Started [new GH repo](https://github.com/mejia-dev/ice_cream_shop).
 			* Began working on getting url and views set up. Template is having some trouble rendering.
+			* Learning about dotenv in Python (using [python-dotenv](https://pypi.org/project/python-dotenv/)) and creating [many-to-many relationships](https://docs.djangoproject.com/en/5.0/topics/db/examples/many_to_many/).
+	* 12pm PST - 1pm PST
+		* Lunch
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
