@@ -62,6 +62,8 @@
 		* Render flavors on page
 		* Research into partials. Appears that there is no official support. For sake of time, will look into this later.
 		* Add rendering for Treats Index
+		* Research Python hosting -- found pythonanywhere.com
+		* Add details page for treat
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
