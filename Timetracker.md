@@ -64,6 +64,7 @@
 		* Add rendering for Treats Index
 		* Research Python hosting -- found pythonanywhere.com
 		* Add details page for treat
+		* Add details page for flavor
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
