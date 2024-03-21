@@ -58,6 +58,7 @@
 		* Meeting with Erik.
 	* 1:45pm PST - pm PST
 		* Set up superuser account.
+		* Register Treat and Flavor in admin panel
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
