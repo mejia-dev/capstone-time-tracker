@@ -65,6 +65,8 @@
 		* Research Python hosting -- found pythonanywhere.com
 		* Add details page for treat
 		* Add details page for flavor
+		* Update Treat details to render flavors
+		* Trying to get both sides of many-to-many rendering correctly.
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
