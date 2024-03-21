@@ -61,6 +61,7 @@
 		* Register Treat and Flavor in admin panel
 		* Render flavors on page
 		* Research into partials. Appears that there is no official support. For sake of time, will look into this later.
+		* Add rendering for Treats Index
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
