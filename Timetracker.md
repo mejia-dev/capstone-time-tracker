@@ -44,6 +44,8 @@
 				* Appears that the command just wouldn't run in powershell. Works fine in cmd.
 			* Pushed project to [repository](https://github.com/mejia-dev/pastry_paradise_bakery).
 			* After comparing to some other sample projects, noticed some issues and not sure how to properly push a Django project. Watching [quick tutorial](https://www.youtube.com/watch?v=fVy9eJzloj8).
+			* Deleted GitHub repository. Tore down entire project. Appears I was pushing too much.
+			* 
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
