@@ -56,7 +56,7 @@
 		* Add migration to database and migrate successfully.
 	* 1:33pm PST - 1:45pm PST
 		* Meeting with Erik.
-	* 1:45pm PST - pm PST
+	* 1:45pm PST - 5:01pm PST
 		* Set up superuser account.
 		* Register Treat and Flavor in admin panel
 		* Render flavors on page
@@ -67,6 +67,7 @@
 		* Add details page for flavor
 		* Update Treat details to render flavors
 		* Trying to get both sides of many-to-many rendering correctly.
+		* Resolved issue -- appears that I was trying to use `{% if flavor.treats.all.count > 0 %}`, but this only works from one side of the many-to-many. Using `{% if flavor.treat_set.all %}` instead resolved the issue.
 
 * 2024-03-20
 	* 7:58am PST - 9am PST
