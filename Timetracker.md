@@ -33,6 +33,9 @@
 		* Begin [PostgreSQL Tutorial](https://www.youtube.com/watch?v=SpfIwlAYaKk).
 	* 12pm PST - 1pm PST
 		* Lunch
+	* 1pm PST - 
+		* Continue watching [PostgreSQL Tutorial](https://www.youtube.com/watch?v=SpfIwlAYaKk). Installed and set up PostgreSQL and pgAdmin.
+		* Apply for a [dream job](https://linusmediagroup.com/ft-junior-backend-developer).
 
 ### Week 2
 
