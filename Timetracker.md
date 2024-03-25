@@ -18,6 +18,7 @@
 			* Appears that databse has to be manually created first for Django projects. Created database then migrated to it. Resolved.
 		* Set up static files. Now getting error during template rendering when clicking on any page links: `'NoneType' object has no attribute 'startswith'`.
 			* Appears to be related to a database connection but not sure what might be happening. Will check dotenv documentation again to ensure it is set up correctly. Especially strange since it migrated correctly according to the terminal message.
+			* Referenced [documentation](https://help.pythonanywhere.com/pages/environment-variables-for-web-apps). Looks like the file was not defined in the wsgi.py file. Specifying it here resolved the issue.
 
 ### Week 2
 
