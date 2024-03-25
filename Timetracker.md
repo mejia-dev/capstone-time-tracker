@@ -6,6 +6,8 @@
 	* 8am PST - 9am PST
 		* Reading through Monday homework.
 		* Work on getting Django project from last week deployed on PythonAnywhere.
+			* Ran into an issue with path of settings module. Appears it was one layer deeper than expected in the directory.
+			* Ran into an issue with allowed hosts. Allowed [mejiadev.pythonanywhere.com](mejiadev.pythonanywhere.com) in the settings module.
 
 
 ### Week 2
