@@ -15,6 +15,7 @@
 		* Continue learning about dotenv usage in Django.
 		* Set up [PythonAnywhere MySQL database](https://help.pythonanywhere.com/pages/UsingMySQL/).
 			* Keep getting access denied error when trying to sign in.
+			* Appears that databse has to be manually created first for Django projects. Created database then migrated to it. Resolved.
 
 ### Week 2
 
