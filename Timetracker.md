@@ -30,6 +30,7 @@
 			* Reloaded the site and confirmed full functionality.
 		* This concludes Django learning.
 		* Update README on [project](https://github.com/mejia-dev/ice_cream_shop) with lessons learned. Updated project info and GitHub pinned repos.
+		* Begin [PostgreSQL Tutorial](https://www.youtube.com/watch?v=SpfIwlAYaKk).
 
 ### Week 2
 
