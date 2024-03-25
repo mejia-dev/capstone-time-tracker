@@ -13,6 +13,8 @@
 		* Scrum
 	* 9:10am PST - 
 		* Continue learning about dotenv usage in Django.
+		* Set up [PythonAnywhere MySQL database](https://help.pythonanywhere.com/pages/UsingMySQL/).
+			* Keep getting access denied error when trying to sign in.
 
 ### Week 2
 
