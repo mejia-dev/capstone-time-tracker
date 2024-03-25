@@ -29,6 +29,7 @@
 			* Change `DEBUG` to False and set `SECRET_KEY = os.getenv("SECRET_KEY")`.
 			* Reloaded the site and confirmed full functionality.
 		* This concludes Django learning.
+		* Update README on [project](https://github.com/mejia-dev/ice_cream_shop) with lessons learned. Updated project info and GitHub pinned repos.
 
 ### Week 2
 
