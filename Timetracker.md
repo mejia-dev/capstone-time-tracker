@@ -37,6 +37,8 @@
 		* Continue watching [PostgreSQL Tutorial](https://www.youtube.com/watch?v=SpfIwlAYaKk). Installed and set up PostgreSQL and pgAdmin.
 	* 1:40pm PST - 3:21pm PST
 		* Apply for a [dream job](https://linusmediagroup.com/ft-junior-backend-developer).
+	* 3:21pm PST - 
+		* Fixed issue with database restore through pgAdmin. Appears that the binary path sometimes needs to be [specified manually](https://stackoverflow.com/questions/77462578/pgadmin-error-when-restoring-database-from-tar-file) for newer versions of Python.
 
 ### Week 2
 
