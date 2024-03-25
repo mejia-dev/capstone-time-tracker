@@ -1,5 +1,13 @@
 # Timetracker
 
+### Week 3
+
+* 2024-03-25
+	* 8am PST - 9am PST
+		* Reading through Monday homework.
+		* Work on getting Django project from last week deployed on PythonAnywhere.
+
+
 ### Week 2
 
 * 2024-03-20
