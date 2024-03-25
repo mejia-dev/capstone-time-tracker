@@ -37,8 +37,15 @@
 		* Continue watching [PostgreSQL Tutorial](https://www.youtube.com/watch?v=SpfIwlAYaKk). Installed and set up PostgreSQL and pgAdmin.
 	* 1:40pm PST - 3:21pm PST
 		* Apply for a [dream job](https://linusmediagroup.com/ft-junior-backend-developer).
-	* 3:21pm PST - 
+	* 3:21pm PST - 4:13pm PST
 		* Fixed issue with database restore through pgAdmin. Appears that the binary path sometimes needs to be [specified manually](https://stackoverflow.com/questions/77462578/pgadmin-error-when-restoring-database-from-tar-file) for newer versions of Python.
+		* Complete Postgresql
+	* 4:13pm PST - 4:45pm PST
+		* Start researching best DB for a chat application.
+		* May end up going with Cassandra as it seems to be largely popular for chat. Some of the more useful articles / threads:
+			* https://www.reddit.com/r/node/comments/i0l97y/why_does_mongodb_get_so_much_hate_genuine_question/
+			* https://discord.com/blog/how-discord-stores-billions-of-messages
+			* https://www.reddit.com/r/Database/comments/8dpgyv/best_database_for_a_chat_application/
 
 ### Week 2
 
