@@ -16,7 +16,8 @@
 		* Set up [PythonAnywhere MySQL database](https://help.pythonanywhere.com/pages/UsingMySQL/).
 			* Keep getting access denied error when trying to sign in.
 			* Appears that databse has to be manually created first for Django projects. Created database then migrated to it. Resolved.
-			* Set up static files. Now getting error during template rendering when clicking on any page links: `'NoneType' object has no attribute 'startswith'`.
+		* Set up static files. Now getting error during template rendering when clicking on any page links: `'NoneType' object has no attribute 'startswith'`.
+			* Appears to be related to a database connection but not sure what might be happening. Will check dotenv documentation again to ensure it is set up correctly. Especially strange since it migrated correctly according to the terminal message.
 
 ### Week 2
 
