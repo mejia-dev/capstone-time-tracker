@@ -46,6 +46,7 @@
 			* https://www.reddit.com/r/node/comments/i0l97y/why_does_mongodb_get_so_much_hate_genuine_question/
 			* https://discord.com/blog/how-discord-stores-billions-of-messages
 			* https://www.reddit.com/r/Database/comments/8dpgyv/best_database_for_a_chat_application/
+		* Will either begin learning [Flutter](https://flutter.dev/) tomorrow or build a chat app.
 
 ### Week 2
 
