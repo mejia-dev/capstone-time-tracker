@@ -8,6 +8,7 @@
 		* Work on getting Django project from last week deployed on PythonAnywhere.
 			* Ran into an issue with path of settings module. Appears it was one layer deeper than expected in the directory.
 			* Ran into an issue with allowed hosts. Allowed [mejiadev.pythonanywhere.com](mejiadev.pythonanywhere.com) in the settings module. Eventually realized it needs to be a string instead. Site is now working but database and static files are not functional yet.
+			* Learning about dotenv usage.
 
 
 ### Week 2
