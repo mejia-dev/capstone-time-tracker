@@ -20,6 +20,15 @@
 			* Appears to be related to a database connection but not sure what might be happening. Will check dotenv documentation again to ensure it is set up correctly. Especially strange since it migrated correctly according to the terminal message.
 			* Referenced [documentation](https://help.pythonanywhere.com/pages/environment-variables-for-web-apps). Looks like the file was not defined in the wsgi.py file. Specifying it here resolved the issue.
 		* Looking into Django secret key management. Hadn't realized that this needed to be secured.
+			* Created a new secret key using:
+				```python
+				from django.core.management.utils import get_random_secret_key
+				print(get_random_secret_key())
+				```
+			* Saved key in `.env`.
+			* Change `DEBUG` to False and set `SECRET_KEY = os.getenv("SECRET_KEY")`.
+			* Reloaded the site and confirmed full functionality.
+		* This concludes Django learning.
 
 ### Week 2
 
