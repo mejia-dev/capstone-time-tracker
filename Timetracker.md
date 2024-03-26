@@ -52,7 +52,13 @@
 			* Begin [chat app tutorial](https://www.youtube.com/watch?v=Fzv-rgwcFKk).
 				* Researching use of dotenv in Node.
 				* Appears tutorial is outdated and there is a third-party chat engine being used for authentication and message storage whereas I wanted it to be self-hosted so I could set up the db infrastructure. Abandoning tutorial. 
-			* Found [more documentation](https://www.dotenv.org/docs/frameworks/angular/vercel) on Angular dotenv. Attempted integration into project again.
+		* Found [more documentation](https://www.dotenv.org/docs/frameworks/angular/vercel) on Angular dotenv. Attempted integration into project again.
+			* Did not work. Appears that Angular relies pretty heavily on a backend in order to run environment variables.
+		* Started [MERN stack tutorial](https://www.youtube.com/watch?v=mYy-d6BtqmU).
+			* Created with TypeScript. [Pushed to GitHub](https://github.com/mejia-dev/mernchatapp).
+			* Building login form
+
+			
 		
 
 
