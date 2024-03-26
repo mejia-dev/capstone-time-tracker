@@ -4,7 +4,7 @@
 
 
 * 2024-03-25
-	* 7:45am PST - 9am PST
+	* 7:45am PST - 
 		* [Whiteboarding prompt](https://full-time.learnhowtoprogram.com/capstone/capstone-week-4/whiteboarding-practice---week-3#longest-substring-with-at-most-two-distinct-characters)
 			```javascript
 			// Input: "eceba"
@@ -44,7 +44,14 @@
 				}
 				// Time spent: 40 minutes. Hints used: none.
 			```
+		* No scrum today - Erik out sick.
 		* Researching music APIs for my capstone.
+			* [Discogs](https://www.discogs.com/developers)
+			* [LibreSpot](https://github.com/librespot-org/librespot)
+		* May try to integrate APIs into a simple project later to test them. Going to try and build a chat application for now. 
+			* Begin [chat app tutorial](https://www.youtube.com/watch?v=k4mjF4sPITE).
+		
+
 
 * 2024-03-25
 	* 8am PST - 9am PST
