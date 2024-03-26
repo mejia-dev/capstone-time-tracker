@@ -64,6 +64,7 @@
 		* Continue working on MERN stack tutorial.
 		* Fully build out register view and have it return a JWT for auth.
 		* Work with browser cookies to add seamless login experience and stay signed in on refresh.
+		* Convert registration form to be reusable. Begin working on password hashing.
 		
 
 
