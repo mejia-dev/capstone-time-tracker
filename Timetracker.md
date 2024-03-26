@@ -51,6 +51,8 @@
 		* May try to integrate APIs into a simple project later to test them. Going to try and build a chat application for now. 
 			* Begin [chat app tutorial](https://www.youtube.com/watch?v=Fzv-rgwcFKk).
 				* Researching use of dotenv in Node.
+				* Appears tutorial is outdated and there is a third-party chat engine being used for authentication and message storage whereas I wanted it to be self-hosted so I could set up the db infrastructure. Abandoning tutorial. 
+			* Found [more documentation](https://www.dotenv.org/docs/frameworks/angular/vercel) on Angular dotenv. Attempted integration into project again.
 		
 
 
