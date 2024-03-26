@@ -4,7 +4,7 @@
 
 
 * 2024-03-25
-	* 7:45am PST - 
+	* 7:45am PST - 12:07pm PST
 		* [Whiteboarding prompt](https://full-time.learnhowtoprogram.com/capstone/capstone-week-4/whiteboarding-practice---week-3#longest-substring-with-at-most-two-distinct-characters)
 			```javascript
 			// Input: "eceba"
@@ -57,6 +57,7 @@
 		* Started [MERN stack tutorial](https://www.youtube.com/watch?v=mYy-d6BtqmU).
 			* Created with TypeScript. [Pushed to GitHub](https://github.com/mejia-dev/mernchatapp).
 			* Building login form
+			* Build initial API with Express.
 
 			
 		
