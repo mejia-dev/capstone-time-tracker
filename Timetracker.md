@@ -58,8 +58,8 @@
 			* Created with TypeScript. [Pushed to GitHub](https://github.com/mejia-dev/mernchatapp).
 			* Building login form
 			* Build initial API with Express.
-
-			
+	* 12:07pm PST - 
+		* Lunch
 		
 
 
