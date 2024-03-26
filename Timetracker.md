@@ -2,6 +2,50 @@
 
 ### Week 3
 
+
+* 2024-03-25
+	* 7:45am PST - 9am PST
+		* [Whiteboarding prompt](https://full-time.learnhowtoprogram.com/capstone/capstone-week-4/whiteboarding-practice---week-3#longest-substring-with-at-most-two-distinct-characters)
+			```javascript
+			// Input: "eceba"
+			// Output: 3
+			// Explanation: The substring "ece" contains 2 distinct characters
+
+			// Steps to solve:
+				// define left and right for sliding window
+				// define a character map
+				// while right is less than the length of the input
+					// perform window sliding function on right side
+					// adjust left side accodingly until the character map size is not more than 2, increasing left variable by 1
+				// increase right variable by 1
+
+				function findLongestSubstring(inputString) {
+					let leftIndex = 0;
+					let rightIndex = 0;
+					const charMap = new Map();
+					let finalLength = 0;
+
+					while (rightIndex < inputString.length) {
+						const thisChar = inputString[rightIndex];
+						charMap.set(thisChar, (charMap.get(thisChar) || 0) + 1);
+
+						while (charMap.size > 2) {
+							const leftChar = inputString[leftIndex];
+							charMap.set(leftChar, charMap.get(leftChar) -1);
+							if (charMap.get(leftChar) == 0) {
+								charMap.delete(leftChar);
+							}
+							leftIndex++;
+						}
+						finalLength = Math.max(finalLength, rightIndex - leftIndex + 1);
+						rightIndex++;
+					}
+					return finalLength;
+				}
+				// Time spent: 40 minutes. Hints used: none.
+			```
+		* Researching music APIs for my capstone.
+
 * 2024-03-25
 	* 8am PST - 9am PST
 		* Reading through Monday homework.
