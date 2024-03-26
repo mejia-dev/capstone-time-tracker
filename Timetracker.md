@@ -60,11 +60,12 @@
 			* Build initial API with Express.
 	* 12:07pm PST - 1:05pm PST
 		* Lunch
-	* 1:05pm PST - 
+	* 1:05pm PST - 4:54pm PST
 		* Continue working on MERN stack tutorial.
 		* Fully build out register view and have it return a JWT for auth.
 		* Work with browser cookies to add seamless login experience and stay signed in on refresh.
 		* Convert registration form to be reusable. Begin working on password hashing.
+		* Complete password hashing and allow login and creation to use hashing.
 		
 
 
