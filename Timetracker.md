@@ -50,6 +50,7 @@
 			* [LibreSpot](https://github.com/librespot-org/librespot)
 		* May try to integrate APIs into a simple project later to test them. Going to try and build a chat application for now. 
 			* Begin [chat app tutorial](https://www.youtube.com/watch?v=Fzv-rgwcFKk).
+				* Researching use of dotenv in Node.
 		
 
 
