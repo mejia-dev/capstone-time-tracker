@@ -26,6 +26,7 @@
 			* Make message posting. 
 			* Tweak UI
 			* Working through TypeScript issues for getting messages list.
+			* Add message model to Mongo
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
