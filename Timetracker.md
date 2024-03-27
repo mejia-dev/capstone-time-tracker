@@ -22,6 +22,7 @@
 	* 1:05pm PST - 
 		* Continue MERN chat app
 			* Create separate element for Logo
+			* Make active users not return current user
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
