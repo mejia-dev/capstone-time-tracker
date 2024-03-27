@@ -6,8 +6,11 @@
 	* 7:40am PST - 9am PST
 		* Continue working on [MERN Chat app](https://www.youtube.com/watch?v=mYy-d6BtqmU)
 		* Pause for Scrum
-	* 9am PST - 
+	* 9am PST - 9:15am PST
 		* Scrum
+	* 9:15am PST - 
+		* Continue working on [MERN Chat app](https://www.youtube.com/watch?v=mYy-d6BtqmU)
+			* Finally fix issue with `/profile` route. Appears I accidentally had wrapped `userInfo` in brackets when it needed to not be
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
