@@ -13,6 +13,7 @@
 			* Finally fix issue with `/profile` route. Appears I accidentally had wrapped `userInfo` in brackets when it needed to not be
 			* Begin learning websockets.
 			* Work on getting list of all active connections with their connection info.
+			* Make api return list of active connections
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
