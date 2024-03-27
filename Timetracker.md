@@ -3,8 +3,11 @@
 ### Week 3
 
 * 2024-03-27
-	* 7:40am PST -  PST
+	* 7:40am PST - 9am PST
 		* Continue working on [MERN Chat app](https://www.youtube.com/watch?v=mYy-d6BtqmU)
+		* Pause for Scrum
+	* 9am PST - 
+		* Scrum
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
