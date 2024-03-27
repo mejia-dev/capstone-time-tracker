@@ -17,8 +17,10 @@
 			* Working with custom types in TypeScript in order to properly get usersession details
 			* Resolve strongly typed useState issue.
 			* Add avatar for users.
-	* 12:05pm PST - 
+	* 12:05pm PST - 1:05pm PST
 		* Lunch
+	* 1:05pm PST - 
+		* Continue MERN chat app
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
