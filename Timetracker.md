@@ -8,7 +8,7 @@
 		* Pause for Scrum
 	* 9am PST - 9:15am PST
 		* Scrum
-	* 9:15am PST - 
+	* 9:15am PST - 12:05pm PST
 		* Continue working on [MERN Chat app](https://www.youtube.com/watch?v=mYy-d6BtqmU)
 			* Finally fix issue with `/profile` route. Appears I accidentally had wrapped `userInfo` in brackets when it needed to not be
 			* Begin learning websockets.
@@ -16,6 +16,9 @@
 			* Make api return list of active connections
 			* Working with custom types in TypeScript in order to properly get usersession details
 			* Resolve strongly typed useState issue.
+			* Add avatar for users.
+	* 12:05pm PST - 
+		* Lunch
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
