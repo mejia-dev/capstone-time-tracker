@@ -2,8 +2,11 @@
 
 ### Week 3
 
+* 2024-03-27
+	* 7:40am PST -  PST
+		* Continue working on [MERN Chat app](https://www.youtube.com/watch?v=mYy-d6BtqmU)
 
-* 2024-03-25
+* 2024-03-26
 	* 7:45am PST - 12:07pm PST
 		* [Whiteboarding prompt](https://full-time.learnhowtoprogram.com/capstone/capstone-week-4/whiteboarding-practice---week-3#longest-substring-with-at-most-two-distinct-characters)
 			```javascript
