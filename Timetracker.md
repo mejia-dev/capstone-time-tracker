@@ -27,6 +27,7 @@
 			* Tweak UI
 			* Working through TypeScript issues for getting messages list.
 			* Add message model to Mongo
+			* Working on updating message receiving. There are some issues following the tutorial directly due to TypeScript being used.
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
