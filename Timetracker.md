@@ -15,6 +15,7 @@
 			* Work on getting list of all active connections with their connection info.
 			* Make api return list of active connections
 			* Working with custom types in TypeScript in order to properly get usersession details
+			* Resolve strongly typed useState issue.
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
