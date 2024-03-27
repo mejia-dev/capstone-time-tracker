@@ -23,6 +23,9 @@
 		* Continue MERN chat app
 			* Create separate element for Logo
 			* Make active users not return current user
+			* Make message posting. 
+			* Tweak UI
+			* Working through TypeScript issues for getting messages list.
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
