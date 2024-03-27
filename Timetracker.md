@@ -11,6 +11,7 @@
 	* 9:15am PST - 
 		* Continue working on [MERN Chat app](https://www.youtube.com/watch?v=mYy-d6BtqmU)
 			* Finally fix issue with `/profile` route. Appears I accidentally had wrapped `userInfo` in brackets when it needed to not be
+			* Begin learning websockets.
 
 * 2024-03-26
 	* 7:45am PST - 12:07pm PST
