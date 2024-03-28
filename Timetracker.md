@@ -7,11 +7,15 @@
 		* Continue working on message retrieving for MERN chat app
 	* 9am PST - 9:20am PST
 		* Scrum
-	* 9:20am PST - 
+	* 9:20am PST - 12pm PST
 		* Continue chat app
 		* Discuss team week project ideas
 		* Ended up piecing message retrieval together based on some other code samples. Working on getting it fully functional.
 		* Determined the issue -- I was sending property `recipientId` into the database Message model, but was querying a `recipient` property. Working on getting this fixed.
+		* Messages now query properly, but trying to get the page refresh to work. Breaking for lunch, will resume later.
+	* 12pm PST - pm PST
+		* Lunch
+	* pm PST -
 
 * 2024-03-27
 	* 7:40am PST - 9am PST
