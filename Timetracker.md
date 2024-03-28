@@ -3,8 +3,12 @@
 ### Week 3
 
 * 2024-03-27
-	* 7:45am PST - 
+	* 7:45am PST - 9am PST
 		* Continue working on message retrieving for MERN chat app
+	* 9am PST - 9:20am PST
+		* Scrum
+	* 9:20am PST - 
+		* Continue chat app
 
 * 2024-03-27
 	* 7:40am PST - 9am PST
