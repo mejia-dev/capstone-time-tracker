@@ -9,6 +9,7 @@
 		* Scrum
 	* 9:20am PST - 
 		* Continue chat app
+		* Discuss team week project ideas
 
 * 2024-03-27
 	* 7:40am PST - 9am PST
