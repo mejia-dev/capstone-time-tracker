@@ -11,6 +11,7 @@
 		* Continue chat app
 		* Discuss team week project ideas
 		* Ended up piecing message retrieval together based on some other code samples. Working on getting it fully functional.
+		* Determined the issue -- I was sending property `recipientId` into the database Message model, but was querying a `recipient` property. Working on getting this fixed.
 
 * 2024-03-27
 	* 7:40am PST - 9am PST
