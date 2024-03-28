@@ -10,6 +10,7 @@
 	* 9:20am PST - 
 		* Continue chat app
 		* Discuss team week project ideas
+		* Ended up piecing message retrieval together based on some other code samples. Working on getting it fully functional.
 
 * 2024-03-27
 	* 7:40am PST - 9am PST
